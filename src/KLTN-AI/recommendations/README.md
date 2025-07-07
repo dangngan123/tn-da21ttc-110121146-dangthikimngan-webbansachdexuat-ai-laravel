@@ -1,4 +1,4 @@
-# Hệ thống Đề xuất Sách Trực Tuyến - Chuyên sâu (Cập nhật)
+# Hệ thống Đề xuất Sách Trực Tuyến
 
 Dự án này là một giải pháp toàn diện cho việc xây dựng hệ thống gợi ý sách thông minh. Mục tiêu là nâng cao trải nghiệm người dùng và thúc đẩy doanh số bằng cách giới thiệu những đầu sách phù hợp. Phiên bản này đã được cập nhật với mô hình ALS và cải tiến các thuật toán gợi ý.
 
