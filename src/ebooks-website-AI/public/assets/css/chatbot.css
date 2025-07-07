@@ -1,0 +1,265 @@
+
+        [x-cloak] {
+            display: none !important;
+        }
+
+        .fixed {
+            position: fixed !important;
+            bottom: 1rem !important;
+            right: 1rem !important;
+        }
+
+        .rounded-lg {
+            border-radius: 12px !important;
+        }
+
+        .rounded-full {
+            border-radius: 50% !important;
+        }
+
+        .border {
+            border-radius: 8px !important;
+        }
+
+        .close-button {
+            float: right;
+        }
+
+        .w-80 {
+            width: 330px !important;
+            height: 430px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .custom-scrollbar {
+            scrollbar-width: thin;
+            scrollbar-color: #888 transparent;
+        }
+
+      
+   
+/* thanh cuộn chat */
+    
+        .form-scroll-container {
+            max-height: 300px;
+            overflow-y: auto;
+            padding-right: 6px;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .form-scroll-container::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        .form-scroll-container::-webkit-scrollbar-thumb {
+            background-color: #aaa;
+            border-radius: 4px;
+        }
+
+        .form-scroll-container::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 14px;
+            outline: none;
+            transition: box-shadow 0.3s;
+        }
+
+        .input-field:focus {
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 2px #bfdbfe;
+        }
+
+        .submit-button {
+            width: 100%;
+            padding: 0.5rem;
+            background-color: #C12530;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: pointer;
+            position: sticky;
+            bottom: 0;
+            z-index: 10;
+        }
+
+        .submit-button:hover {
+            opacity: 0.9;
+        }
+
+        .error-text {
+            color: #ef4444;
+            font-size: 12px;
+        }
+
+        /* Chỉnh sủa thông tin */
+        .hamburger-button {
+            cursor: pointer;
+            padding: 0;
+            background-color: transparent;
+            border: none;
+            color: #333;
+            font-size: 18px;
+            float: right;
+            margin-right: 8px; /* Khoảng cách từ bên phải */
+        }
+        
+        .edit-menu {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        
+        .input-field {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 14px;
+            outline: none;
+            transition: box-shadow 0.3s;
+        }
+        
+        .input-field:focus {
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 2px #bfdbfe;
+        }
+        
+        .submit-button {
+            width: 100%;
+            padding: 0.5rem;
+            background-color: #C12530;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        
+        .submit-button:hover {
+            opacity: 0.9;
+        }
+        
+        .error-text {
+            color: #ef4444;
+            font-size: 12px;
+        }
+        /* Chatbot */
+        
+     
+
+        /* Tin nhắn của người dùng */
+        .user-message {
+            padding: 10px 15px;
+            background-color: #0078FF;
+            /* Màu nền tin nhắn của người dùng */
+            color: white;
+            border-radius: 20px 20px 0 20px;
+            font-size: 13px;
+            max-width: 70%;
+            /* Giới hạn chiều rộng tối đa của tin nhắn */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 8px;
+            float: right;
+            clear: both;
+            position: relative;
+        }
+
+        /* Tin nhắn bot */
+        .bot-message-box {
+            background-color: #f1f1f1;
+            color: black;
+            border: 1px solid #E5E7EB;
+            border-radius: 20px 20px 0 20px;
+            font-size: 13px;
+            max-width: 70%;
+            /* Giới hạn chiều rộng tối đa của tin nhắn */
+            padding: 10px 15px;
+            margin-bottom: 8px;
+            float: left;
+            clear: both;
+            position: relative;
+        }
+
+
+
+        /* Khung tin nhắn bot */
+        .flex-start {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position: relative;
+        }
+
+        /* Cải thiện giao diện cuộn tin nhắn */
+        #chatMessages {
+            max-height: 300px !important;
+            overflow-y: auto;
+            padding: 10px;
+            position: relative;
+        }
+
+        .custom-scrollbar {
+            scrollbar-width: thin;
+            scrollbar-color: #0078FF #f1f1f1;
+        }
+
+        /* Cải thiện cuộn thanh cuộn */
+        #chatMessages::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        #chatMessages::-webkit-scrollbar-thumb {
+            background-color: #0078FF;
+            border-radius: 10px;
+        }
+
+        #chatMessages::-webkit-scrollbar-track {
+            background-color: #f1f1f1;
+            border-radius: 10px;
+        }
+
+
+        /* Đặt vị trí và chiều cao cố định cho khung nhập */
+        .input-container {
+            position: relative;
+            width: 100%;
+            height: 40px;
+            /* Chiều cao cố định cho khung nhập */
+            display: flex;
+            align-items: center;
+            /* Căn giữa nội dung */
+        }
+
+        /* Khung nhập */
+        .input-container input {
+            width: 100%;
+            padding: 8px 36px 8px 12px;
+            border: 1px solid #ccc;
+            border-radius: 9999px;
+            font-size: 14px;
+            outline: none;
+            height: 100%;
+            /* Chiều cao bằng chiều cao container */
+            box-sizing: border-box;
+        }
+
+        /* Nút gửi (icon) */
+        .input-container i {
+            position: absolute;
+            top: 50%;
+            right: 12px;
+            transform: translateY(-50%);
+            color: #3b82f6;
+            cursor: pointer;
+            font-size: 16px;
+        }

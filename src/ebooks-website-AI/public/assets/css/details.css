@@ -1,0 +1,133 @@
+    .modal {
+                                                position: fixed;
+                                                top: 0;
+                                                left: 0;
+                                                width: 100%;
+                                                height: 100%;
+                                                background-color: rgba(0, 0, 0, 0.5);
+                                                display: none;
+                                                /* Đảm bảo modal không hiển thị mặc định */
+                                                justify-content: center;
+                                                align-items: center;
+                                                z-index: 1050;
+                                                /* Đảm bảo modal luôn xuất hiện trên cùng */
+                                            }
+
+                                            .modal.show {
+                                                display: flex;
+                                                /* Hiển thị modal */
+                                            }
+
+                                            .modal-dialog {
+                                                background-color: #fff;
+                                                padding: 20px;
+                                                border-radius: 8px;
+                                                max-width: 500px;
+                                                width: 100%;
+                                            }
+
+
+                                            .offers-container {
+                                                padding: 16px;
+                                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+                                            }
+
+                                            .offers-header {
+                                                display: flex;
+                                                justify-content: space-between;
+                                                align-items: center;
+                                                margin-bottom: 16px;
+                                            }
+
+                                            .offers-title {
+                                                font-size: 20px;
+                                                font-weight: 600;
+                                                margin: 0;
+                                                color: #333;
+                                            }
+
+                                            .view-more {
+                                                color: #1890ff;
+                                                text-decoration: none;
+                                                font-size: 14px;
+                                            }
+
+                                            .offers-scroll {
+                                                display: flex;
+                                                gap: 12px;
+                                                overflow-x: auto;
+                                                padding: 4px;
+                                                scrollbar-width: none;
+                                                /* Firefox */
+                                                -ms-overflow-style: none;
+                                                /* IE and Edge */
+                                            }
+
+                                            .offers-scroll::-webkit-scrollbar {
+                                                display: none;
+                                                /* Chrome, Safari, Opera */
+                                            }
+
+                                            .offer-card {
+                                                min-width: 200px;
+                                                padding: 12px;
+                                                border: 1px solid #e8e8e8;
+                                                border-radius: 8px;
+                                                display: flex;
+                                                align-items: center;
+                                                gap: 12px;
+                                                background: white;
+                                                cursor: pointer;
+                                                transition: transform 0.2s;
+                                            }
+
+                                            .offer-card:hover {
+                                                transform: translateY(-2px);
+                                                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                                            }
+
+                                            .offer-icon {
+                                                width: 40px;
+                                                height: 40px;
+                                                border-radius: 8px;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                            }
+
+                                            .offer-icon.discount {
+                                                background-color: #ffd60a;
+                                            }
+
+                                            .offer-icon.credit {
+                                                background-color: #e6f4ff;
+                                            }
+
+                                            .percent {
+                                                color: #fff;
+                                                font-weight: bold;
+                                                font-size: 18px;
+                                            }
+
+                                            .offer-content h3 {
+                                                margin: 0;
+                                                font-size: 14px;
+                                                font-weight: 500;
+                                                color: #333;
+                                            }
+
+                                            .offer-icon img {
+                                                width: 24px;
+                                                height: 24px;
+                                            }
+
+                                            @media (max-width: 768px) {
+                                                .offer-card {
+                                                    min-width: 180px;
+                                                }
+
+                                                .offers-title {
+                                                    font-size: 18px;
+                                                }
+                                            }
+                                        

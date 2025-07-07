@@ -1,0 +1,670 @@
+2025-05-27 15:03:51,438 - ERROR - Cache error for user_similarity: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:03:51,512 - INFO - Generated 10 recommendations for user 6 using user-based
+2025-05-27 15:04:01,317 - INFO - Generated 10 recommendations for user 8 using user-based
+2025-05-27 15:04:26,447 - INFO - Generated 10 recommendations for user 8 using user-based
+2025-05-27 15:04:38,503 - ERROR - Cache error for user_similarity: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:04:38,553 - INFO - Generated 10 recommendations for user 9 using user-based
+2025-05-27 15:04:52,912 - ERROR - Cache error for user_similarity: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:04:52,973 - INFO - Generated 10 recommendations for user 10 using user-based
+2025-05-27 15:07:38,099 - ERROR - Cache error for user_similarity: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:07:42,262 - ERROR - Cache error for item_similarity: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:07:45,336 - INFO - Generated 10 recommendations for user 99 using hybrid
+2025-05-27 15:07:46,383 - ERROR - Cache error for content_similarity: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:07:46,390 - ERROR - Error in get_recommendations: 'Index' object has no attribute 'iloc'
+2025-05-27 15:07:57,513 - INFO - Generated 10 recommendations for user 98 using hybrid
+2025-05-27 15:08:21,781 - ERROR - Cache error for user_similarity: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:08:25,888 - ERROR - Cache error for item_similarity: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:08:29,999 - ERROR - Cache error for content_similarity: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:08:30,011 - ERROR - Error in get_recommendations: 'Index' object has no attribute 'iloc'
+2025-05-27 15:08:35,133 - ERROR - Cache error for user_similarity: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:08:35,171 - INFO - Generated 10 recommendations for user 10 using user-based
+2025-05-27 15:12:57,084 - ERROR - Error loading ALS model: [Errno 2] No such file or directory: './models/als_model_latest.pkl'
+2025-05-27 15:23:49,801 - ERROR - Cache error for user_item_matrix: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:23:53,891 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:23:54,442 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:23:54,464 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:23:54,567 - INFO - ALS model trained and saved to ./models/als_model_latest.pkl
+2025-05-27 15:24:59,623 - ERROR - Cache error for user_item_matrix: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:25:03,709 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:25:04,169 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:25:04,176 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:25:08,244 - ERROR - Cache error for blacklist: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:25:08,655 - ERROR - Error in get_recommendations: (pymysql.err.ProgrammingError) (1146, "Table 'db_websitebansach.blacklist' doesn't exist")
+[SQL: SELECT variant_id FROM blacklist]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-05-27 15:26:17,114 - ERROR - Cache error for user_item_matrix: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:26:21,208 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:26:21,592 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:26:21,598 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:26:25,687 - ERROR - Cache error for blacklist: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:26:26,082 - ERROR - Error in get_recommendations: (pymysql.err.ProgrammingError) (1146, "Table 'db_websitebansach.blacklist' doesn't exist")
+[SQL: SELECT variant_id FROM blacklist]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-05-27 15:26:54,082 - ERROR - Cache error for user_item_matrix: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:26:58,163 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:26:58,563 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:26:58,570 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:27:02,646 - ERROR - Cache error for blacklist: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:27:03,062 - ERROR - Error in get_recommendations: (pymysql.err.ProgrammingError) (1146, "Table 'db_websitebansach.blacklist' doesn't exist")
+[SQL: SELECT variant_id FROM blacklist]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-05-27 15:27:27,497 - ERROR - Cache error for user_item_matrix: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:27:31,583 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:27:32,067 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:27:32,075 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:27:36,173 - ERROR - Cache error for blacklist: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:27:36,574 - ERROR - Error in get_recommendations: (pymysql.err.ProgrammingError) (1146, "Table 'db_websitebansach.blacklist' doesn't exist")
+[SQL: SELECT variant_id FROM blacklist]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-05-27 15:31:54,397 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:32:04,459 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:32:08,522 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:32:12,614 - ERROR - Cache error for products: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:32:13,148 - INFO - Loaded 160 products from DB
+2025-05-27 15:32:27,867 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:32:31,949 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:32:36,058 - ERROR - Cache error for products: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:32:37,071 - INFO - Loaded 160 products from DB
+2025-05-27 15:33:12,451 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:33:16,543 - ERROR - Cache error for user_item_matrix: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:33:20,644 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:33:21,091 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:33:21,098 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:33:21,177 - INFO - ALS model trained and saved to ./models/als_model_latest.pkl
+2025-05-27 15:33:45,344 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:33:49,436 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:33:53,525 - ERROR - Cache error for products: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:33:54,096 - INFO - Loaded 160 products from DB
+2025-05-27 15:34:04,333 - ERROR - Cache error for user_item_matrix: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:34:08,421 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:34:08,805 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:34:08,813 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:34:12,892 - ERROR - Cache error for blacklist: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:34:13,307 - WARNING - Table 'blacklist' does not exist, creating it
+2025-05-27 15:34:13,307 - ERROR - Error in get_recommendations: 'Engine' object has no attribute 'execute'
+2025-05-27 15:34:22,912 - ERROR - Cache error for user_item_matrix: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:34:27,013 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:34:27,451 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:34:27,460 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:34:31,548 - ERROR - Cache error for blacklist: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:34:31,962 - WARNING - Table 'blacklist' does not exist, creating it
+2025-05-27 15:34:31,962 - ERROR - Error in get_recommendations: 'Engine' object has no attribute 'execute'
+2025-05-27 15:40:12,084 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:40:30,864 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:40:34,940 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:40:39,044 - ERROR - Cache error for products: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:40:39,653 - INFO - Loaded 160 products from DB
+2025-05-27 15:41:14,217 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:41:18,325 - ERROR - Cache error for user_item_matrix: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:41:22,412 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:41:22,867 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:41:22,884 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:41:22,979 - INFO - ALS model trained and saved to ./models/als_model_latest.pkl
+2025-05-27 15:42:05,806 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:42:09,894 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:42:13,965 - ERROR - Cache error for products: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:42:14,465 - INFO - Loaded 160 products from DB
+2025-05-27 15:42:35,107 - ERROR - Cache error for user_item_matrix: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:42:39,196 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:42:39,887 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:42:39,894 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:42:43,995 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:42:44,403 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:42:44,408 - ERROR - Error in get_recommendations: user_items must contain 1 row for every user in userids
+2025-05-27 15:42:56,429 - ERROR - Cache error for user_item_matrix: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:43:00,515 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:43:00,926 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:43:00,929 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:43:05,030 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:43:05,402 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:43:05,403 - ERROR - Error in get_recommendations: user_items must contain 1 row for every user in userids
+2025-05-27 15:43:14,633 - ERROR - Cache error for user_item_matrix: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:43:18,733 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:43:19,188 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:43:19,194 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:43:23,294 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:43:23,674 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:43:23,703 - INFO - Generated 5 recommendations for user 8 using hybrid
+2025-05-27 15:44:19,368 - ERROR - Cache error for user_item_matrix: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:44:23,475 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:44:23,856 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:44:23,860 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:44:27,922 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:44:28,300 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:44:28,301 - ERROR - Error in get_recommendations: user_items must contain 1 row for every user in userids
+2025-05-27 15:46:12,562 - ERROR - Cache error for user_item_matrix: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:46:16,663 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:46:17,085 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:46:17,090 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:46:21,163 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:46:21,548 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:46:21,549 - ERROR - Error in get_recommendations: user_items must contain 1 row for every user in userids
+2025-05-27 15:47:04,707 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:47:08,790 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:47:12,891 - ERROR - Cache error for products: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:47:13,444 - INFO - Loaded 160 products from DB
+2025-05-27 15:47:52,689 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:47:56,777 - ERROR - Cache error for user_item_matrix: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:48:00,871 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:48:01,301 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:48:01,309 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:48:01,374 - INFO - ALS model trained and saved to ./models/als_model_latest.pkl
+2025-05-27 15:48:12,369 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:48:16,464 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:48:20,558 - ERROR - Cache error for products: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:48:21,011 - INFO - Loaded 160 products from DB
+2025-05-27 15:48:25,094 - ERROR - Cache error for user_item_matrix: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:48:29,198 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:48:29,618 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:48:29,627 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:48:51,118 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:48:51,529 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:48:51,537 - INFO - Generated 10 recommendations for user 8 using user-based
+2025-05-27 15:49:05,834 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:49:06,208 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:49:06,209 - ERROR - Error in get_recommendations: user_items must contain 1 row for every user in userids
+2025-05-27 15:49:48,469 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:49:48,883 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:49:48,884 - ERROR - Error in get_recommendations: user_items must contain 1 row for every user in userids
+2025-05-27 15:50:05,248 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:50:05,636 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:50:05,643 - INFO - Generated 10 recommendations for user 8 using user-based
+2025-05-27 15:50:29,133 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:50:29,550 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:50:29,550 - ERROR - Error in get_recommendations: user_items must contain 1 row for every user in userids
+2025-05-27 15:52:53,918 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:52:58,023 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:53:02,104 - ERROR - Cache error for products: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:53:02,660 - INFO - Loaded 160 products from DB
+2025-05-27 15:53:06,744 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:53:07,129 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:53:07,146 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:53:14,240 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:53:18,329 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:53:22,413 - ERROR - Cache error for products: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:53:22,878 - INFO - Loaded 160 products from DB
+2025-05-27 15:53:26,977 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:53:27,354 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:53:27,359 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:53:27,359 - INFO - Loaded user_item_matrix at startup with shape (61, 130)
+2025-05-27 15:53:37,437 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:53:41,522 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:53:41,941 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:53:41,947 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:53:42,025 - INFO - ALS model trained and saved to ./models/als_model_latest.pkl
+2025-05-27 15:53:52,449 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:53:56,538 - WARNING - Redis not available, proceeding without caching
+2025-05-27 15:54:00,625 - ERROR - Cache error for products: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:54:01,159 - INFO - Loaded 160 products from DB
+2025-05-27 15:54:05,218 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:54:05,598 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:54:05,603 - INFO - Created user-item matrix with shape (61, 130)
+2025-05-27 15:54:05,603 - INFO - Loaded user_item_matrix at startup with shape (61, 130)
+2025-05-27 15:54:16,578 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:54:16,959 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:54:16,989 - INFO - Generated 10 recommendations for user 8 using user-based
+2025-05-27 15:54:26,618 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:54:26,999 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:54:26,999 - INFO - Calling als_model.recommend for user_id 9 with user_idx 7, matrix shape (61, 130)
+2025-05-27 15:54:27,000 - ERROR - Error in get_recommendations: user_items must contain 1 row for every user in userids
+2025-05-27 15:55:06,038 - ERROR - Cache error for user_interactions: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 15:55:06,428 - INFO - Loaded 1010 user interactions from DB
+2025-05-27 15:55:06,428 - INFO - Calling als_model.recommend for user_id 10 with user_idx 8, matrix shape (61, 130)
+2025-05-27 15:55:06,429 - ERROR - Error in get_recommendations: user_items must contain 1 row for every user in userids
+2025-05-27 15:58:21,559 - INFO - Computed user_similarity matrix with shape (61, 61)
+2025-05-27 15:58:21,565 - INFO - Computed item_similarity matrix with shape (130, 130)
+2025-05-27 15:58:21,584 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 15:58:40,147 - INFO - Generated 10 recommendations for user 10 using user-based
+2025-05-27 15:58:49,301 - INFO - Generated 10 recommendations for user 9 using user-based
+2025-05-27 15:59:36,691 - INFO - Generated 5 recommendations for user 9 using user-based
+2025-05-27 15:59:44,641 - INFO - Generated 5 recommendations for user 8 using user-based
+2025-05-27 16:02:16,113 - INFO - Computed popular_products with 130 items
+2025-05-27 16:02:16,120 - INFO - Computed user_similarity matrix with shape (61, 61)
+2025-05-27 16:02:16,129 - INFO - Computed item_similarity matrix with shape (130, 130)
+2025-05-27 16:02:16,142 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 16:02:30,177 - INFO - Computed popular_products with 130 items
+2025-05-27 16:02:30,185 - INFO - Computed user_similarity matrix with shape (61, 61)
+2025-05-27 16:02:30,192 - INFO - Computed item_similarity matrix with shape (130, 130)
+2025-05-27 16:02:30,205 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 16:02:32,925 - INFO - Generated 5 recommendations for user 8 using user-based
+2025-05-27 16:02:38,420 - INFO - Generated 5 recommendations for user 9 using user-based
+2025-05-27 16:02:54,287 - INFO - Generated 25 recommendations for user 9 using user-based
+2025-05-27 16:03:46,507 - INFO - Generated 10 recommendations for user 56 using user-based
+2025-05-27 16:05:13,287 - INFO - Generated 5 recommendations for user 9 using hybrid
+2025-05-27 16:05:29,268 - INFO - Generated 5 recommendations for user 8 using hybrid
+2025-05-27 16:10:15,426 - INFO - Computed popular_products with 130 items
+2025-05-27 16:10:15,460 - INFO - Computed user_similarity matrix with shape (61, 61)
+2025-05-27 16:10:15,468 - INFO - Computed item_similarity matrix with shape (130, 130)
+2025-05-27 16:10:15,487 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 16:10:50,701 - INFO - Computed popular_products with 130 items
+2025-05-27 16:10:50,711 - INFO - Computed user_similarity matrix with shape (61, 61)
+2025-05-27 16:10:50,717 - INFO - Computed item_similarity matrix with shape (130, 130)
+2025-05-27 16:10:50,731 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 16:12:26,639 - INFO - Computed popular_products with 130 items
+2025-05-27 16:12:26,651 - INFO - Computed user_similarity matrix with shape (61, 61)
+2025-05-27 16:12:26,657 - INFO - Computed item_similarity matrix with shape (130, 130)
+2025-05-27 16:12:26,669 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 16:12:41,410 - INFO - Computed popular_products with 130 items
+2025-05-27 16:12:41,417 - INFO - Computed user_similarity matrix with shape (61, 61)
+2025-05-27 16:12:41,422 - INFO - Computed item_similarity matrix with shape (130, 130)
+2025-05-27 16:12:41,435 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 16:12:50,815 - INFO - Generated 5 recommendations for user 8 using hybrid
+2025-05-27 16:13:00,157 - INFO - Generated 5 recommendations for user 7 using hybrid
+2025-05-27 16:21:51,232 - INFO - Starting data refresh
+2025-05-27 16:21:51,688 - ERROR - Error refreshing data: (pymysql.err.OperationalError) (1054, "Unknown column 'user_interaction.updated_at' in 'field list'")
+[SQL: 
+    SELECT `user_interaction`.`interaction_id`,
+        `user_interaction`.`user_id`,
+        `user_interaction`.`product_id`,
+        `user_interaction`.`interaction_type`,
+        `user_interaction`.`interaction_value`,
+        `user_interaction`.`created_at`,
+        `user_interaction`.`updated_at`
+    FROM `db_websitebansach`.`user_interaction`;
+    ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-27 16:21:51,735 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 16:21:51,739 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 16:21:51,739 - INFO - Scheduler started
+2025-05-27 16:22:03,851 - ERROR - Error in get_recommendations: 'NoneType' object has no attribute 'index'
+2025-05-27 16:22:11,242 - ERROR - Error in get_recommendations: 'NoneType' object has no attribute 'index'
+2025-05-27 16:24:15,129 - INFO - Starting data refresh
+2025-05-27 16:24:15,560 - ERROR - Error refreshing data: (pymysql.err.OperationalError) (1054, "Unknown column 'user_interaction.updated_at' in 'field list'")
+[SQL: 
+    SELECT `user_interaction`.`interaction_id`,
+        `user_interaction`.`user_id`,
+        `user_interaction`.`product_id`,
+        `user_interaction`.`interaction_type`,
+        `user_interaction`.`interaction_value`,
+        `user_interaction`.`created_at`,
+        `user_interaction`.`updated_at`
+    FROM `db_websitebansach`.`user_interaction`;
+    ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-27 16:24:15,571 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 16:24:15,573 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 16:24:15,573 - INFO - Scheduler started
+2025-05-27 16:25:44,796 - INFO - Starting data refresh
+2025-05-27 16:25:45,214 - ERROR - Error refreshing data: (pymysql.err.OperationalError) (1054, "Unknown column 'user_interaction.updated_at' in 'field list'")
+[SQL: 
+    SELECT `user_interaction`.`interaction_id`,
+        `user_interaction`.`user_id`,
+        `user_interaction`.`product_id`,
+        `user_interaction`.`interaction_type`,
+        `user_interaction`.`interaction_value`,
+        `user_interaction`.`created_at`,
+        `user_interaction`.`updated_at`
+    FROM `db_websitebansach`.`user_interaction`;
+    ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-27 16:25:45,226 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 16:25:45,228 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 16:25:45,228 - INFO - Scheduler started
+2025-05-27 16:28:08,758 - INFO - MySQL connection successful
+2025-05-27 16:28:08,758 - INFO - Starting data refresh
+2025-05-27 16:28:09,209 - ERROR - Error refreshing data: (pymysql.err.OperationalError) (1054, "Unknown column 'user_interaction.updated_at' in 'field list'")
+[SQL: 
+    SELECT `user_interaction`.`interaction_id`,
+        `user_interaction`.`user_id`,
+        `user_interaction`.`product_id`,
+        `user_interaction`.`interaction_type`,
+        `user_interaction`.`interaction_value`,
+        `user_interaction`.`created_at`,
+        `user_interaction`.`updated_at`
+    FROM `db_websitebansach`.`user_interaction`;
+    ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-27 16:28:09,221 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 16:28:09,223 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 16:28:09,224 - INFO - Scheduler started
+2025-05-27 16:29:09,225 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:29:09 +07)" (scheduled at 2025-05-27 16:29:09.221402+07:00)
+2025-05-27 16:29:09,931 - ERROR - Error getting last updated time for user_interaction: (pymysql.err.OperationalError) (1054, "Unknown column 'updated_at' in 'field list'")
+[SQL: 
+    SELECT MAX(updated_at) as last_updated
+    FROM db_websitebansach.user_interaction;
+    ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-27 16:29:10,406 - INFO - Detected data changes, starting refresh in background
+2025-05-27 16:29:10,407 - INFO - Starting data refresh
+2025-05-27 16:29:10,407 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:30:09 +07)" executed successfully
+2025-05-27 16:29:10,815 - ERROR - Error refreshing data: (pymysql.err.OperationalError) (1054, "Unknown column 'user_interaction.updated_at' in 'field list'")
+[SQL: 
+    SELECT `user_interaction`.`interaction_id`,
+        `user_interaction`.`user_id`,
+        `user_interaction`.`product_id`,
+        `user_interaction`.`interaction_type`,
+        `user_interaction`.`interaction_value`,
+        `user_interaction`.`created_at`,
+        `user_interaction`.`updated_at`
+    FROM `db_websitebansach`.`user_interaction`;
+    ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-27 16:30:09,231 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:31:09 +07)" (scheduled at 2025-05-27 16:30:09.221402+07:00)
+2025-05-27 16:30:09,634 - ERROR - Error getting last updated time for user_interaction: (pymysql.err.OperationalError) (1054, "Unknown column 'updated_at' in 'field list'")
+[SQL: 
+    SELECT MAX(updated_at) as last_updated
+    FROM db_websitebansach.user_interaction;
+    ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-27 16:30:10,094 - INFO - Detected data changes, starting refresh in background
+2025-05-27 16:30:10,096 - INFO - Starting data refresh
+2025-05-27 16:30:10,096 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:31:09 +07)" executed successfully
+2025-05-27 16:30:10,478 - ERROR - Error refreshing data: (pymysql.err.OperationalError) (1054, "Unknown column 'user_interaction.updated_at' in 'field list'")
+[SQL: 
+    SELECT `user_interaction`.`interaction_id`,
+        `user_interaction`.`user_id`,
+        `user_interaction`.`product_id`,
+        `user_interaction`.`interaction_type`,
+        `user_interaction`.`interaction_value`,
+        `user_interaction`.`created_at`,
+        `user_interaction`.`updated_at`
+    FROM `db_websitebansach`.`user_interaction`;
+    ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-27 16:31:09,226 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:32:09 +07)" (scheduled at 2025-05-27 16:31:09.221402+07:00)
+2025-05-27 16:31:09,625 - ERROR - Error getting last updated time for user_interaction: (pymysql.err.OperationalError) (1054, "Unknown column 'updated_at' in 'field list'")
+[SQL: 
+    SELECT MAX(updated_at) as last_updated
+    FROM db_websitebansach.user_interaction;
+    ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-27 16:31:10,057 - INFO - Detected data changes, starting refresh in background
+2025-05-27 16:31:10,060 - INFO - Starting data refresh
+2025-05-27 16:31:10,060 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:32:09 +07)" executed successfully
+2025-05-27 16:31:10,413 - ERROR - Error refreshing data: (pymysql.err.OperationalError) (1054, "Unknown column 'user_interaction.updated_at' in 'field list'")
+[SQL: 
+    SELECT `user_interaction`.`interaction_id`,
+        `user_interaction`.`user_id`,
+        `user_interaction`.`product_id`,
+        `user_interaction`.`interaction_type`,
+        `user_interaction`.`interaction_value`,
+        `user_interaction`.`created_at`,
+        `user_interaction`.`updated_at`
+    FROM `db_websitebansach`.`user_interaction`;
+    ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-27 16:32:09,231 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:33:09 +07)" (scheduled at 2025-05-27 16:32:09.221402+07:00)
+2025-05-27 16:32:09,666 - ERROR - Error getting last updated time for user_interaction: (pymysql.err.OperationalError) (1054, "Unknown column 'updated_at' in 'field list'")
+[SQL: 
+    SELECT MAX(updated_at) as last_updated
+    FROM db_websitebansach.user_interaction;
+    ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-27 16:32:10,256 - INFO - Detected data changes, starting refresh in background
+2025-05-27 16:32:10,294 - INFO - Starting data refresh
+2025-05-27 16:32:10,294 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:33:09 +07)" executed successfully
+2025-05-27 16:32:10,724 - ERROR - Error refreshing data: (pymysql.err.OperationalError) (1054, "Unknown column 'user_interaction.updated_at' in 'field list'")
+[SQL: 
+    SELECT `user_interaction`.`interaction_id`,
+        `user_interaction`.`user_id`,
+        `user_interaction`.`product_id`,
+        `user_interaction`.`interaction_type`,
+        `user_interaction`.`interaction_value`,
+        `user_interaction`.`created_at`,
+        `user_interaction`.`updated_at`
+    FROM `db_websitebansach`.`user_interaction`;
+    ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-27 16:33:09,238 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:34:09 +07)" (scheduled at 2025-05-27 16:33:09.221402+07:00)
+2025-05-27 16:33:09,636 - ERROR - Error getting last updated time for user_interaction: (pymysql.err.OperationalError) (1054, "Unknown column 'updated_at' in 'field list'")
+[SQL: 
+    SELECT MAX(updated_at) as last_updated
+    FROM db_websitebansach.user_interaction;
+    ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-27 16:33:10,285 - INFO - Detected data changes, starting refresh in background
+2025-05-27 16:33:10,290 - INFO - Starting data refresh
+2025-05-27 16:33:10,290 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:34:09 +07)" executed successfully
+2025-05-27 16:33:10,669 - ERROR - Error refreshing data: (pymysql.err.OperationalError) (1054, "Unknown column 'user_interaction.updated_at' in 'field list'")
+[SQL: 
+    SELECT `user_interaction`.`interaction_id`,
+        `user_interaction`.`user_id`,
+        `user_interaction`.`product_id`,
+        `user_interaction`.`interaction_type`,
+        `user_interaction`.`interaction_value`,
+        `user_interaction`.`created_at`,
+        `user_interaction`.`updated_at`
+    FROM `db_websitebansach`.`user_interaction`;
+    ]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-27 16:33:22,579 - INFO - MySQL connection successful
+2025-05-27 16:33:22,579 - INFO - Starting data refresh
+2025-05-27 16:33:23,516 - INFO - Computed popular_products with 130 items
+2025-05-27 16:33:23,551 - INFO - Computed user_similarity matrix with shape (61, 61)
+2025-05-27 16:33:23,557 - INFO - Computed item_similarity matrix with shape (130, 130)
+2025-05-27 16:33:23,581 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 16:33:24,469 - INFO - Data refresh completed successfully
+2025-05-27 16:33:24,486 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 16:33:24,488 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 16:33:24,488 - INFO - Scheduler started
+2025-05-27 16:33:45,857 - INFO - MySQL connection successful
+2025-05-27 16:33:45,857 - INFO - Starting data refresh
+2025-05-27 16:33:46,890 - INFO - Computed popular_products with 130 items
+2025-05-27 16:33:46,898 - INFO - Computed user_similarity matrix with shape (61, 61)
+2025-05-27 16:33:46,905 - INFO - Computed item_similarity matrix with shape (130, 130)
+2025-05-27 16:33:46,922 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 16:33:47,769 - INFO - Data refresh completed successfully
+2025-05-27 16:33:47,780 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 16:33:47,781 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 16:33:47,781 - INFO - Scheduler started
+2025-05-27 16:34:02,513 - INFO - MySQL connection successful
+2025-05-27 16:34:02,514 - INFO - Starting data refresh
+2025-05-27 16:34:03,450 - INFO - Computed popular_products with 130 items
+2025-05-27 16:34:03,456 - INFO - Computed user_similarity matrix with shape (61, 61)
+2025-05-27 16:34:03,460 - INFO - Computed item_similarity matrix with shape (130, 130)
+2025-05-27 16:34:03,472 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 16:34:04,313 - INFO - Data refresh completed successfully
+2025-05-27 16:34:04,324 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 16:34:04,325 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 16:34:04,326 - INFO - Scheduler started
+2025-05-27 16:34:28,584 - INFO - MySQL connection successful
+2025-05-27 16:34:28,584 - INFO - Starting data refresh
+2025-05-27 16:34:29,504 - INFO - Computed popular_products with 130 items
+2025-05-27 16:34:29,508 - INFO - Computed user_similarity matrix with shape (61, 61)
+2025-05-27 16:34:29,512 - INFO - Computed item_similarity matrix with shape (130, 130)
+2025-05-27 16:34:29,525 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 16:34:30,444 - INFO - Data refresh completed successfully
+2025-05-27 16:34:30,457 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 16:34:30,458 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 16:34:30,458 - INFO - Scheduler started
+2025-05-27 16:34:41,334 - INFO - Generated 5 recommendations for user 9 using hybrid
+2025-05-27 16:34:59,481 - INFO - Generated 5 recommendations for user 8 using hybrid
+2025-05-27 16:35:30,469 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:35:30 +07)" (scheduled at 2025-05-27 16:35:30.457292+07:00)
+2025-05-27 16:35:31,428 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:36:30 +07)" executed successfully
+2025-05-27 16:35:39,225 - INFO - Generated 5 recommendations for user 56 using hybrid
+2025-05-27 16:35:48,536 - INFO - Generated 10 recommendations for user 56 using hybrid
+2025-05-27 16:44:33,333 - INFO - MySQL connection successful
+2025-05-27 16:44:33,333 - INFO - Starting data refresh
+2025-05-27 16:44:34,307 - INFO - Computed popular_products with 130 items
+2025-05-27 16:44:34,342 - INFO - Computed user_similarity matrix with shape (61, 61)
+2025-05-27 16:44:34,347 - INFO - Computed item_similarity matrix with shape (130, 130)
+2025-05-27 16:44:34,369 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 16:44:35,211 - INFO - Data refresh completed successfully
+2025-05-27 16:44:35,239 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 16:44:35,242 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 16:44:35,242 - INFO - Scheduler started
+2025-05-27 16:45:35,253 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:45:35 +07)" (scheduled at 2025-05-27 16:45:35.239518+07:00)
+2025-05-27 16:45:36,143 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:46:35 +07)" executed successfully
+2025-05-27 16:46:35,245 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:47:35 +07)" (scheduled at 2025-05-27 16:46:35.239518+07:00)
+2025-05-27 16:46:36,135 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:47:35 +07)" executed successfully
+2025-05-27 16:46:51,459 - INFO - Generated 5 recommendations for user 9 using hybrid
+2025-05-27 16:47:35,254 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:48:35 +07)" (scheduled at 2025-05-27 16:47:35.239518+07:00)
+2025-05-27 16:47:36,114 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:48:35 +07)" executed successfully
+2025-05-27 16:48:35,245 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:49:35 +07)" (scheduled at 2025-05-27 16:48:35.239518+07:00)
+2025-05-27 16:48:36,092 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:49:35 +07)" executed successfully
+2025-05-27 16:49:35,249 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:50:35 +07)" (scheduled at 2025-05-27 16:49:35.239518+07:00)
+2025-05-27 16:49:36,116 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:50:35 +07)" executed successfully
+2025-05-27 16:50:35,250 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:51:35 +07)" (scheduled at 2025-05-27 16:50:35.239518+07:00)
+2025-05-27 16:50:36,057 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:51:35 +07)" executed successfully
+2025-05-27 16:51:35,250 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:52:35 +07)" (scheduled at 2025-05-27 16:51:35.239518+07:00)
+2025-05-27 16:51:36,275 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:52:35 +07)" executed successfully
+2025-05-27 16:52:35,244 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:53:35 +07)" (scheduled at 2025-05-27 16:52:35.239518+07:00)
+2025-05-27 16:52:36,093 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:53:35 +07)" executed successfully
+2025-05-27 16:53:35,244 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:54:35 +07)" (scheduled at 2025-05-27 16:53:35.239518+07:00)
+2025-05-27 16:53:36,133 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:54:35 +07)" executed successfully
+2025-05-27 16:54:35,243 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:55:35 +07)" (scheduled at 2025-05-27 16:54:35.239518+07:00)
+2025-05-27 16:54:36,067 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:55:35 +07)" executed successfully
+2025-05-27 16:55:11,975 - INFO - MySQL connection successful
+2025-05-27 16:55:12,086 - INFO - Loaded ALS model from ./models/als_model_latest.pkl
+2025-05-27 16:55:12,086 - INFO - Starting data refresh
+2025-05-27 16:55:13,029 - INFO - Computed popular_products with 130 items
+2025-05-27 16:55:13,056 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 16:55:13,933 - INFO - Data refresh completed successfully
+2025-05-27 16:55:13,949 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 16:55:13,951 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 16:55:13,951 - INFO - Scheduler started
+2025-05-27 16:55:39,582 - INFO - ALS model trained and saved to ./models/als_model_latest.pkl
+2025-05-27 16:56:06,682 - INFO - ALS model trained and saved to ./models/als_model_latest.pkl
+2025-05-27 16:56:27,104 - INFO - MySQL connection successful
+2025-05-27 16:56:27,166 - INFO - Loaded ALS model from ./models/als_model_latest.pkl
+2025-05-27 16:56:27,166 - INFO - Starting data refresh
+2025-05-27 16:56:28,095 - INFO - Computed popular_products with 130 items
+2025-05-27 16:56:28,106 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 16:56:28,962 - INFO - Data refresh completed successfully
+2025-05-27 16:56:28,972 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 16:56:28,974 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 16:56:28,974 - INFO - Scheduler started
+2025-05-27 16:56:29,147 - ERROR - Error in ALS recommendation: 'DataFrame' object has no attribute 'sparse_matrix'
+2025-05-27 16:56:58,897 - ERROR - Error in ALS recommendation: 'DataFrame' object has no attribute 'sparse_matrix'
+2025-05-27 16:57:28,985 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:57:28 +07)" (scheduled at 2025-05-27 16:57:28.972664+07:00)
+2025-05-27 16:57:29,881 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:58:28 +07)" executed successfully
+2025-05-27 16:58:28,974 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:59:28 +07)" (scheduled at 2025-05-27 16:58:28.972664+07:00)
+2025-05-27 16:58:29,821 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 16:59:28 +07)" executed successfully
+2025-05-27 16:59:06,985 - INFO - MySQL connection successful
+2025-05-27 16:59:07,057 - INFO - Loaded ALS model from ./models/als_model_latest.pkl
+2025-05-27 16:59:07,058 - INFO - Starting data refresh
+2025-05-27 16:59:08,000 - INFO - Computed popular_products with 130 items
+2025-05-27 16:59:08,016 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 16:59:08,905 - INFO - Data refresh completed successfully
+2025-05-27 16:59:08,933 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 16:59:08,935 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 16:59:08,935 - INFO - Scheduler started
+2025-05-27 16:59:08,956 - ERROR - Error in ALS recommendation: user_items must contain 1 row for every user in userids
+2025-05-27 16:59:21,153 - INFO - ALS model trained and saved to ./models/als_model_latest.pkl
+2025-05-27 16:59:28,264 - INFO - MySQL connection successful
+2025-05-27 16:59:28,312 - INFO - Loaded ALS model from ./models/als_model_latest.pkl
+2025-05-27 16:59:28,312 - INFO - Starting data refresh
+2025-05-27 16:59:29,210 - INFO - Computed popular_products with 130 items
+2025-05-27 16:59:29,224 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 16:59:30,154 - INFO - Data refresh completed successfully
+2025-05-27 16:59:30,164 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 16:59:30,165 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 16:59:30,165 - INFO - Scheduler started
+2025-05-27 17:00:13,444 - ERROR - Error in ALS recommendation: user_items must contain 1 row for every user in userids
+2025-05-27 17:00:14,630 - ERROR - Error in ALS recommendation: user_items must contain 1 row for every user in userids
+2025-05-27 17:00:17,051 - ERROR - Error in ALS recommendation: user_items must contain 1 row for every user in userids
+2025-05-27 17:00:30,176 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:00:30 +07)" (scheduled at 2025-05-27 17:00:30.164120+07:00)
+2025-05-27 17:00:31,101 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:01:30 +07)" executed successfully
+2025-05-27 17:01:30,176 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:02:30 +07)" (scheduled at 2025-05-27 17:01:30.164120+07:00)
+2025-05-27 17:01:31,036 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:02:30 +07)" executed successfully
+2025-05-27 17:02:19,567 - INFO - MySQL connection successful
+2025-05-27 17:02:19,606 - INFO - Loaded ALS model from ./models/als_model_latest.pkl
+2025-05-27 17:02:19,606 - INFO - Starting data refresh
+2025-05-27 17:02:20,723 - INFO - Computed popular_products with 130 items
+2025-05-27 17:02:20,758 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 17:02:21,659 - INFO - Data refresh completed successfully
+2025-05-27 17:02:21,669 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 17:02:21,671 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 17:02:21,671 - INFO - Scheduler started
+2025-05-27 17:02:32,544 - INFO - ALS model trained and saved to ./models/als_model_latest.pkl
+2025-05-27 17:02:42,945 - INFO - MySQL connection successful
+2025-05-27 17:02:42,998 - INFO - Loaded ALS model from ./models/als_model_latest.pkl
+2025-05-27 17:02:42,998 - INFO - Starting data refresh
+2025-05-27 17:02:43,924 - INFO - Computed popular_products with 130 items
+2025-05-27 17:02:43,935 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 17:02:44,829 - INFO - Data refresh completed successfully
+2025-05-27 17:02:44,839 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 17:02:44,840 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 17:02:44,840 - INFO - Scheduler started
+2025-05-27 17:02:52,097 - ERROR - Error in ALS recommendation: user_items must contain 1 row for every user in userids
+2025-05-27 17:03:25,489 - INFO - Generated 5 recommendations for user 8 using hybrid
+2025-05-27 17:03:36,810 - ERROR - Error in ALS recommendation: user_items must contain 1 row for every user in userids
+2025-05-27 17:03:44,845 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:03:44 +07)" (scheduled at 2025-05-27 17:03:44.839382+07:00)
+2025-05-27 17:03:45,703 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:04:44 +07)" executed successfully
+2025-05-27 17:04:39,924 - ERROR - Error in ALS recommendation: user_items must contain 1 row for every user in userids
+2025-05-27 17:04:44,845 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:05:44 +07)" (scheduled at 2025-05-27 17:04:44.839382+07:00)
+2025-05-27 17:04:45,786 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:05:44 +07)" executed successfully
+2025-05-27 17:05:12,013 - INFO - MySQL connection successful
+2025-05-27 17:05:12,108 - INFO - Loaded ALS model from ./models/als_model_latest.pkl
+2025-05-27 17:05:12,108 - INFO - Starting data refresh
+2025-05-27 17:05:13,081 - INFO - Computed popular_products with 130 items
+2025-05-27 17:05:13,091 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 17:05:13,952 - INFO - Data refresh completed successfully
+2025-05-27 17:05:13,965 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 17:05:13,966 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 17:05:13,967 - INFO - Scheduler started
+2025-05-27 17:05:18,886 - INFO - ALS model trained and saved to ./models/als_model_latest.pkl
+2025-05-27 17:05:24,427 - INFO - MySQL connection successful
+2025-05-27 17:05:24,472 - INFO - Loaded ALS model from ./models/als_model_latest.pkl
+2025-05-27 17:05:24,472 - INFO - Starting data refresh
+2025-05-27 17:05:25,374 - INFO - Computed popular_products with 130 items
+2025-05-27 17:05:25,387 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 17:05:26,266 - INFO - Data refresh completed successfully
+2025-05-27 17:05:26,274 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 17:05:26,276 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 17:05:26,276 - INFO - Scheduler started
+2025-05-27 17:05:40,893 - ERROR - Error in ALS recommendation: user_items must contain 1 row for every user in userids
+2025-05-27 17:06:26,283 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:06:26 +07)" (scheduled at 2025-05-27 17:06:26.274829+07:00)
+2025-05-27 17:06:27,191 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:07:26 +07)" executed successfully
+2025-05-27 17:07:26,289 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:08:26 +07)" (scheduled at 2025-05-27 17:07:26.274829+07:00)
+2025-05-27 17:07:27,369 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:08:26 +07)" executed successfully
+2025-05-27 17:08:26,279 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:09:26 +07)" (scheduled at 2025-05-27 17:08:26.274829+07:00)
+2025-05-27 17:08:27,137 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:09:26 +07)" executed successfully
+2025-05-27 17:09:26,283 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:10:26 +07)" (scheduled at 2025-05-27 17:09:26.274829+07:00)
+2025-05-27 17:09:27,319 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:10:26 +07)" executed successfully
+2025-05-27 17:12:40,925 - INFO - MySQL connection successful
+2025-05-27 17:12:40,926 - INFO - Starting data refresh
+2025-05-27 17:12:41,856 - INFO - Computed popular_products with 130 items
+2025-05-27 17:12:41,894 - INFO - Computed user_similarity matrix with shape (61, 61)
+2025-05-27 17:12:41,899 - INFO - Computed item_similarity matrix with shape (130, 130)
+2025-05-27 17:12:41,911 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 17:12:42,812 - INFO - Data refresh completed successfully
+2025-05-27 17:12:42,827 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 17:12:42,829 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 17:12:42,829 - INFO - Scheduler started
+2025-05-27 17:12:54,172 - INFO - MySQL connection successful
+2025-05-27 17:12:54,172 - INFO - Starting data refresh
+2025-05-27 17:12:55,092 - INFO - Computed popular_products with 130 items
+2025-05-27 17:12:55,097 - INFO - Computed user_similarity matrix with shape (61, 61)
+2025-05-27 17:12:55,101 - INFO - Computed item_similarity matrix with shape (130, 130)
+2025-05-27 17:12:55,115 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 17:12:55,962 - INFO - Data refresh completed successfully
+2025-05-27 17:12:55,980 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 17:12:55,982 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 17:12:55,982 - INFO - Scheduler started
+2025-05-27 17:12:56,569 - INFO - Generated 5 recommendations for user 9 using hybrid
+2025-05-27 17:13:55,984 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:13:55 +07)" (scheduled at 2025-05-27 17:13:55.980561+07:00)
+2025-05-27 17:13:56,793 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:14:55 +07)" executed successfully
+2025-05-27 17:16:43,077 - INFO - MySQL connection successful
+2025-05-27 17:16:43,078 - INFO - Starting data refresh
+2025-05-27 17:16:44,075 - INFO - Computed popular_products with 130 items
+2025-05-27 17:16:44,081 - INFO - Computed user_similarity matrix with shape (61, 61)
+2025-05-27 17:16:44,087 - INFO - Computed item_similarity matrix with shape (130, 130)
+2025-05-27 17:16:44,099 - INFO - Computed content_similarity matrix with shape (160, 160)
+2025-05-27 17:16:45,005 - INFO - Data refresh completed successfully
+2025-05-27 17:16:45,024 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-05-27 17:16:45,026 - INFO - Added job "GlobalData.check_and_refresh" to job store "default"
+2025-05-27 17:16:45,026 - INFO - Scheduler started
+2025-05-27 17:16:46,865 - INFO - Generated 5 recommendations for user 9 using hybrid
+2025-05-27 17:17:45,039 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:17:45 +07)" (scheduled at 2025-05-27 17:17:45.024360+07:00)
+2025-05-27 17:17:45,883 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:18:45 +07)" executed successfully
+2025-05-27 17:18:45,074 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:19:45 +07)" (scheduled at 2025-05-27 17:18:45.024360+07:00)
+2025-05-27 17:18:46,206 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:19:45 +07)" executed successfully
+2025-05-27 17:19:45,040 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:20:45 +07)" (scheduled at 2025-05-27 17:19:45.024360+07:00)
+2025-05-27 17:19:45,932 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:20:45 +07)" executed successfully
+2025-05-27 17:20:45,028 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:21:45 +07)" (scheduled at 2025-05-27 17:20:45.024360+07:00)
+2025-05-27 17:20:45,883 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:21:45 +07)" executed successfully
+2025-05-27 17:21:45,033 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:22:45 +07)" (scheduled at 2025-05-27 17:21:45.024360+07:00)
+2025-05-27 17:21:45,910 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:22:45 +07)" executed successfully
+2025-05-27 17:22:45,067 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:23:45 +07)" (scheduled at 2025-05-27 17:22:45.024360+07:00)
+2025-05-27 17:22:46,376 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:23:45 +07)" executed successfully
+2025-05-27 17:23:45,037 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:24:45 +07)" (scheduled at 2025-05-27 17:23:45.024360+07:00)
+2025-05-27 17:23:45,852 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:24:45 +07)" executed successfully
+2025-05-27 17:24:45,029 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:25:45 +07)" (scheduled at 2025-05-27 17:24:45.024360+07:00)
+2025-05-27 17:24:46,093 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:25:45 +07)" executed successfully
+2025-05-27 17:25:45,040 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:26:45 +07)" (scheduled at 2025-05-27 17:25:45.024360+07:00)
+2025-05-27 17:25:46,252 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:26:45 +07)" executed successfully
+2025-05-27 17:26:45,034 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:27:45 +07)" (scheduled at 2025-05-27 17:26:45.024360+07:00)
+2025-05-27 17:26:46,088 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:27:45 +07)" executed successfully
+2025-05-27 17:27:45,041 - INFO - Running job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:28:45 +07)" (scheduled at 2025-05-27 17:27:45.024360+07:00)
+2025-05-27 17:27:46,027 - INFO - Job "GlobalData.check_and_refresh (trigger: interval[0:01:00], next run at: 2025-05-27 17:28:45 +07)" executed successfully

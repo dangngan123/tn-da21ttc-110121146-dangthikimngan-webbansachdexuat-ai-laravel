@@ -1,0 +1,511 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+}
+
+.item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 16px;
+}
+
+.course-name {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+h3 {
+    font-size: 21px;
+    margin-bottom: 24px;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1024px) {
+    .courses-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .courses-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .courses-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .item {
+        padding: 16px;
+    }
+}
+/* flash sale */
+.flash-sale-section {
+    background: linear-gradient(135deg, #ff2e2e 0%, #ff6b6b 100%);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 40px 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    animation: glow 3s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 10px 20px rgba(255, 46, 46, 0.3);
+    }
+
+    100% {
+        box-shadow: 0 10px 30px rgba(255, 46, 46, 0.6);
+    }
+}
+
+.flash-sale-section::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, transparent 70%);
+    opacity: 0.3;
+    animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.flash-sale-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.flash-sale-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.flash-sale-text::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #FFD700;
+    border-radius: 2px;
+}
+
+.flash-icon {
+    color: #FFD700;
+    font-size: 32px;
+    animation: flash 1s infinite;
+}
+
+@keyframes flash {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.countdown-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+.countdown {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.countdown>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1a1a1a;
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.countdown>div:hover {
+    transform: scale(1.1);
+    background: #FFD700;
+    color: #1a1a1a;
+}
+
+.countdown>div:hover .number,
+.countdown>div:hover span:last-of-type {
+    color: #1a1a1a;
+}
+
+.number {
+    font-weight: 800;
+    font-size: 24px;
+    color: #FFD700;
+}
+
+.countdown>div span:last-of-type {
+    font-size: 12px;
+    margin-top: 3px;
+    text-transform: uppercase;
+    color: #ddd;
+}
+
+.product-carousel {
+    background: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.product-cart-wrap {
+    background: #fff;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    border: 2px solid #f0f0f0;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-cart-wrap:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-8px);
+    border-color: #ff2e2e;
+}
+
+.product-img-action-wrap {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-img img {
+    transition: transform 0.4s ease;
+}
+
+.product-cart-wrap:hover .product-img img {
+    transform: scale(1.1);
+}
+
+.product-badges {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.product-badges .hot {
+    background: #ff2e2e;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product-content-wrap h2 a {
+    color: #222;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.product-content-wrap h2 a:hover {
+    color: #ff2e2e;
+}
+
+.product-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+}
+
+.product-price span:first-child {
+    color: #ff2e2e;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.product-price .old-price {
+    color: #aaa;
+    font-size: 13px;
+}
+
+.product-cart-wrap .discount-badge {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background: #FFD700;
+    color: #1a1a1a;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 600px) {
+    .flash-sale-section {
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    .flash-sale-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .flash-sale-text {
+        font-size: 24px;
+    }
+
+    .countdown-wrapper {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+
+    .countdown>div {
+        width: 45px;
+        height: 45px;
+    }
+
+    .number {
+        font-size: 20px;
+    }
+
+    .countdown>div span:last-of-type {
+        font-size: 10px;
+    }
+
+    .product-cart-wrap {
+        width: 140px !important;
+    }
+
+    .product-content-wrap h2 {
+        font-size: 12px;
+    }
+
+    .product-price span:first-child {
+        font-size: 14px;
+    }
+
+    .product-price .old-price {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+/* CSS chung cho hiệu ứng hiển thị đầy đủ và carousel */
+        .carausel-6-columns.full-display {
+            display: flex;
+            flex-wrap: wrap; /* Cho phép sản phẩm xuống dòng */
+            justify-content: center; /* Căn giữa sản phẩm */
+            overflow: visible !important; /* Đảm bảo không bị cắt */
+            max-height: 600px; /* Giới hạn chiều cao */
+            overflow-y: auto; /* Thêm thanh cuộn nếu cần */
+        }
+
+        .carausel-6-columns.full-display .product-cart-wrap {
+            flex: 0 0 auto; /* Không giới hạn kích thước */
+        }
+
+        .carausel-6-columns {
+            transition: all 0.5s ease; /* Hiệu ứng mượt mà khi chuyển trạng thái */
+        }
+
+        /* Các style chung */
+        .popular-categories.section-padding {
+            padding: 50px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .product-cart-wrap {
+            transition: all 0.3s ease;
+        }
+
+        .product-cart-wrap:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-img-action-wrap {
+            position: relative;
+        }
+
+        .product-badges span.hot {
+            background: red;
+            color: white;
+            padding: 2px 5px;
+            border-radius: 3px;
+            position: absolute;
+            top: 5px;
+            right: 5px;
+        }
+
+        .product-price span {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+
+        .product-price .old-price {
+            color: #999;
+            text-decoration: line-through;
+            margin-left: 5px;
+            font-size: 12px;
+        }
+
+        /* Style cho Flash Sale */
+        .flash-sale-wrapper {
+            background-color: rgb(245, 59, 59);
+            padding: 20px 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .flash-sale-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .flash-sale-text {
+            font-size: 24px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .flash-sale-text .flash-icon {
+            color: yellow;
+            margin: 0 5px;
+        }
+
+        .countdown-wrapper {
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+
+        .countdown {
+            display: flex;
+            margin-left: 10px;
+        }
+
+        .countdown div {
+            margin: 0 5px;
+            text-align: center;
+        }
+
+        .countdown .number {
+            display: block;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .discount-badge {
+            background: #ffeb3b;
+            color: #d32f2f;
+            font-size: 12px;
+            padding: 2px 5px;
+            border-radius: 3px;
+            margin-top: 5px;
+            display: inline-block;
+        }

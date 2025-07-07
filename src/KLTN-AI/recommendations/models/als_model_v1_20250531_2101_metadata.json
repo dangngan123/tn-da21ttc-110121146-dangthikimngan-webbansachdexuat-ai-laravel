@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "timestamp": "20250531_2101",
+  "factors": 32,
+  "regularization": 0.1,
+  "iterations": 15,
+  "save_path": "./models\\als_model_v1_20250531_2101.pkl"
+}
